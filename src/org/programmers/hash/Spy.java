@@ -14,27 +14,23 @@ public class Spy {
 
     for (int i = 0; i < clothes.length; i++) {
       if (map.get(clothes[i][1]) == null) {
-          List<String> data = new ArrayList<>();
-          data.add(clothes[i][0]);
-          map.put(clothes[i][1], data);
+        List<String> data = new ArrayList<>();
+        data.add(clothes[i][0]);
+        map.put(clothes[i][1], data);
       } else {
-          List<String> data = map.get(clothes[i][1]);
-          data.add(clothes[i][0]);
-          map.put(clothes[i][1], data);
+        List<String> data = map.get(clothes[i][1]);
+        data.add(clothes[i][0]);
+        map.put(clothes[i][1], data);
       }
     }
 
     Set<String> set = map.keySet();
     Iterator<String> it = set.iterator();
     int sum = 1;
-    if (map.size() == 1){
-        sum = 0;
-    } else {
-        while (it.hasNext()) {
-            sum *= map.get(it.next()).size();
-        }
+    while (it.hasNext()) {
+      sum *= map.get(it.next()).size() + 1;
     }
-    answer = sum + clothes.length;
+    answer = sum - 1;
     return answer;
   }
 }
