@@ -86,14 +86,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Progress">
-    <configuration name="LeastCommonMultiple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.programmers.skill.level2.LeastCommonMultiple" />
+  <component name="RunManager" selected="Application.BigNumber">
+    <configuration name="BigNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.programmers.sort.BigNumber" />
       <module name="Programmers" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.programmers.skill.level2.*" />
+          <option name="PATTERN" value="org.programmers.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,34 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Level1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.programmers.hash.Level1" />
-      <module name="Programmers" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.programmers.hash.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NextBigNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.programmers.skill.level2.NextBigNumber" />
-      <module name="Programmers" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.programmers.skill.level2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Progress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.programmers.stack_queue.Progress" />
+    <configuration name="Bridge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.programmers.stack_queue.Bridge" />
       <module name="Programmers" />
       <extension name="coverage">
         <pattern>
@@ -140,12 +115,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.programmers.stack_queue.Stock" />
+    <configuration name="KthNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.programmers.sort.KthNumber" />
+      <module name="Programmers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.programmers.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintPriority" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.programmers.stack_queue.PrintPriority" />
       <module name="Programmers" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.programmers.stack_queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scoville" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.programmers.heap.Scoville" />
+      <module name="Programmers" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.programmers.heap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,19 +166,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LeastCommonMultiple" />
-      <item itemvalue="Application.NextBigNumber" />
-      <item itemvalue="Application.Level1" />
-      <item itemvalue="Application.Stock" />
-      <item itemvalue="Application.Progress" />
+      <item itemvalue="Application.Bridge" />
+      <item itemvalue="Application.PrintPriority" />
+      <item itemvalue="Application.Scoville" />
+      <item itemvalue="Application.KthNumber" />
+      <item itemvalue="Application.BigNumber" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Progress" />
-        <item itemvalue="Application.Stock" />
-        <item itemvalue="Application.Level1" />
-        <item itemvalue="Application.NextBigNumber" />
-        <item itemvalue="Application.LeastCommonMultiple" />
+        <item itemvalue="Application.BigNumber" />
+        <item itemvalue="Application.KthNumber" />
+        <item itemvalue="Application.Scoville" />
+        <item itemvalue="Application.PrintPriority" />
+        <item itemvalue="Application.Bridge" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +190,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609938115290</updated>
-      <workItem from="1609938118794" duration="16673000" />
+      <workItem from="1609938118794" duration="31304000" />
     </task>
     <servers />
   </component>
