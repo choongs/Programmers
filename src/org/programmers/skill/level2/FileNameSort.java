@@ -6,7 +6,7 @@ import java.util.Comparator;
 public class FileNameSort {
 
   public static void main(String[] args) {
-    String[] s = {"amg12.png", "img10", "img00", "img001.png", "IMG01.GIF", "img0.JPG"};
+    String[] s = {"a mg12.png", "img10", "img00", "img001.png", "IMG01.GIF", "img0.JPG"};
     String[] result = solution(s);
     for (String s1 : result) {
       System.out.println(s1);
@@ -22,11 +22,7 @@ public class FileNameSort {
 
         int vs = first[0].compareTo(second[0]);
         if (vs == 0) {
-          if (Integer.valueOf(first[1]) >= Integer.valueOf(second[1])) {
-            return 1;
-          } else {
-            return -1;
-          }
+          return Integer.valueOf(first[1]) - Integer.valueOf(second[1]);
         }
         return vs;
       }
