@@ -1,8 +1,6 @@
 package org.programmers.skill.level2;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class BinaryConverter {
 
